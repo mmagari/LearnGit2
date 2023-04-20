@@ -1,0 +1,111 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lexend", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.splash {
+  height: 700px;
+  max-width: 1140px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/nccfj4Pg/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.splash-inner {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-brand {
+  color: goldenrod;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.navigation-menu {
+  text-align: right;
+}
+
+.nav {
+  padding: 10px 0 0 10px;
+  font-size: 17px;
+  max-width: 1140px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  min-widht: 180px;
+  margin: 24px auto 35px auto;
+  padding: 16px 34px;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: goldenrod;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: rgb(204, 150, 12);
+}
+
+.page-subtitle {
+  font-size: 32px;
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.page-title {
+  font-size: 38px;
+  letter-spacing: 0.2em;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLHNCQUFBO0FDQUo7O0FER0E7RUFDSSx1QkFBQTtFQUNBLFlBQUE7RUFDQSxpQ0FBQTtBQ0FKOztBREdBO0VBRUksaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQ0RKOztBRElBO0VBRUksYUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSw2R0FBQTtFQUlBLHNCQUFBO0VBQ0Esa0NBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQ0ZKOztBRElBO0VBQWlCLGtCQUFBO0VBQ2Isa0JBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ0FKOztBREVBO0VBQ0ksYUFBQTtFQUNBLDhCQUFBO0FDQ0o7O0FEQ0E7RUFDSSxnQkFBQTtFQUNBLGdDQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0FDRUo7O0FEQ0E7RUFDSSxpQkFBQTtBQ0VKOztBRENBO0VBQ0ksc0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSx5QkFBQTtBQ0VKOztBRENBO0VBQ0ksVUFBQTtFQUNBLFNBQUE7RUFDQSxxQkFBQTtBQ0VKOztBRENBO0VBQ0kscUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDRUo7O0FEQ0E7RUFDSSxxQkFBQTtFQUNBLFlBQUE7QUNFSjs7QURDQTtFQUNJLGdCQUFBO0VBQ0EsZUFBQTtBQ0VKOztBREVBO0VBQ0kscUJBQUE7RUFDQSxnQkFBQTtFQUNBLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLHFCQUFBO0VBQ0EsZUFBQTtFQUNBLDJCQUFBO0VBQ0EsY0FBQTtBQ0NKOztBREdBO0VBQ0ksbUNBQUE7QUNBSjs7QURHQTtFQUNJLGVBQUE7RUFDQSwwQ0FBQTtBQ0FKOztBREdBO0VBQ0ksZUFBQTtFQUNBLHFCQUFBO0FDQUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

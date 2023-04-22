@@ -1,3 +1,4 @@
+/*Global*/
 body{
     background-color:black;
     color: white;
@@ -16,6 +17,7 @@ body{
     padding: 0;
 }
 
+/*Splash*/
 .splash
 {
     height: 700px;
@@ -39,6 +41,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*Navigation*/
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -81,7 +84,6 @@ body{
 .nav a:hover{
     color: goldenrod;
     cursor: pointer;
-
 }
 
 .btn{
@@ -112,7 +114,7 @@ body{
     font-size: 38px;
     letter-spacing: .2em;
 }
-
+/*Services*/
 .services{
     background-color: white;
     color: black;
@@ -149,15 +151,15 @@ body{
     border-radius: 50%;
 }
 
-.card{
+.card-serv{
     min-width: 330px;
 }
 
-.services p, .portfolio p{
+.services p, .portfolio p, .page-footer p{
     font-family: 'Ysabeau', sans-serif;
     color:rgb(158, 150, 150);
 }
-
+/*Portfolio*/
 .portfolio{
     background-color: #ffffff;
     color: black;
@@ -234,3 +236,38 @@ body{
 .overlay-card:hover .overlay-link{
     opacity: 0.7;
 }
+/*Footer*/
+.page-footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.foot{
+    position: absolute;
+}
+
+.page-footer ul{
+    list-style-type: none;
+}
+
+.page-footer li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.page-footer i
+{
+    font-size: 30px;
+    background: rgb(90, 87, 87);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+

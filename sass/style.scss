@@ -11,6 +11,11 @@ body{
     padding: 0 20px;
 }
 
+.col-lg-3, .row, .col-md-5{
+    margin: 0 25px 10px 10px;
+    padding: 0;
+}
+
 .splash
 {
     height: 700px;
@@ -108,24 +113,24 @@ body{
     letter-spacing: .2em;
 }
 
-.delivery{
+.services{
     background-color: white;
     color: black;
     text-align: center;
 }
 
-.delivery h2, h6, .row{
+.services h2, h6, .row, .portfolio h2, .portfolio h6{
     display: flex;
     justify-content: center;
     margin: 0;
 }
 
-.delivery h2{
+.services h2, .portfolio h2{
     padding-top: 80px;
     font-size: 36px;
 }
 
-.delivery h6{
+.services h6, .portfolio h6{
     font-size: 20px;
     padding-bottom: 50px;
     font-style: italic;
@@ -134,7 +139,7 @@ body{
     color:rgb(158, 150, 150);
 }
 
-.delivery i{
+.services i{
     font-size: 48px;
     color: rgb(245, 199, 83);
     line-height: 75px;
@@ -148,8 +153,84 @@ body{
     min-width: 330px;
 }
 
-.delivery p{
+.services p, .portfolio p{
     font-family: 'Ysabeau', sans-serif;
     color:rgb(158, 150, 150);
 }
 
+.portfolio{
+    background-color: #ffffff;
+    color: black;
+}
+
+.card-portf-body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.card-portf{
+    margin: 0;
+    width: 275px;
+    height: 412px;
+    background-size: cover;
+    content: '';
+    position: relative;
+}
+
+.card-portf-1{
+    background: url("../images/3.jpg");
+}
+
+.card-portf-2{
+    background: url('../images/4.jpg');
+}
+
+.card-portf-3{
+    background: url('../images/5.jpg');
+}
+
+.card-portf-4{
+    background: url('../images/6.jpg');
+}
+
+.card-portf-5{
+    background: url('../images/7.jpg');
+}
+
+.card-portf-6{
+    background: url('../images/8.jpg');
+}
+
+.card-portf-body p{
+    margin: 0 0 25px 0;
+}
+.overlay-card p{
+    margin-top: 60%;
+    padding: 5px;
+}
+
+.overlay-gold-link{
+    padding: 5px;
+    color: goldenrod;
+    border: solid 2px goldenrod;
+}
+.overlay-card .overlay-link{
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    width: 275px;
+    height: 412px;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay-card:hover .overlay-link{
+    opacity: 0.7;
+}
